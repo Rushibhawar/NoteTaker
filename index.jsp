@@ -25,7 +25,7 @@
    			padding: 25px;
    		}
    		h1,p{
-   			margin: 5px;			line-h
+   			margin: 5px;			
    		}
    		h1{
    			font-weight: 400;
