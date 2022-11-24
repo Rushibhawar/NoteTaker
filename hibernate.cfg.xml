@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<!-- here above we copy paste it from the https://hibernate.org/dtd/ 
+	saved in Windows(C)->User->rushi->hibernate
+-->
+
+<!-- then we create this tags  which property and name -->	
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">jdbc:postgresql://localhost/myhibernate</property>
+		<property name="connection.username">postgres</property>
+		<property name="connection.password">1213</property>
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property><!-- download from chrome hibernate postgres dialect-->
+		<property name="hbm2ddl.auto">update</property><!-- to create automatic tables in databases update means it will create new table if there is not a table of that name or else it will update the existing table-->
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		
+		<!-- -->
+		<mapping class="com.entities.Note"/>
+		
+	</session-factory>
+</hibernate-configuration>	
