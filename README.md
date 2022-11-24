@@ -25,6 +25,11 @@
 
 
 
+## Demo GIF
+
+![NoteTaker](https://user-images.githubusercontent.com/93855806/203841468-c514fc49-c4f1-4f68-ae6f-882454e59091.gif)
+
+
 
 ## Screenshots
 
